@@ -27,7 +27,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
         throw new Error('No valid JSON response from the first API')
       }
 
-      await conn.sendButton2(m.chat,result, author, 'https://telegra.ph/file/2ddd83cf7b411282e6177.png', [['Go with Bing', `.bing ${text}`]], null, [['Follow Me', `https://github.com/PRINCE-GDS`]], m)
+      await conn.sendButton2(m.chat,result, author, 'https://telegra.ph/file/2ddd83cf7b411282e6177.png', [['Go with Chatgpt', `.gpt ${text}`]], null, [['Follow Me', `https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11`]], m)
       m.react('✅')
     } catch (error) {
       console.error('Error from the first API:', error)
@@ -41,7 +41,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
       let data = await response.json()
       let result = data.completion
 
-      await conn.sendButton2(m.chat,result, author, 'https://telegra.ph/file/2ddd83cf7b411282e6177.png', [['Go with Bing', `.bing ${text}`]], null, [['Follow Me', `https://github.com/PRINCE-GDS`]], m)
+      await conn.sendButton2(m.chat,result, author, 'https://telegra.ph/file/2ddd83cf7b411282e6177.png', [['Go with Chatgpt', `.gpt ${text}`]], null, [['Follow Me', `https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11`]], m)
       m.react('✅')
     }
   } catch (error) {
