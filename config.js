@@ -13,7 +13,7 @@ if (!ownervb){
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [923168066637];
+global.owner = [];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
