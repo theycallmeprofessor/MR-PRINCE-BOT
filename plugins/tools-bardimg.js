@@ -14,7 +14,7 @@ m.react('✅')
 } else throw  `${mssg.replyImg}`
 }
 handler.tags = ['bardimg']
-handler.command = /^(bmg)$/i;
+handler.command = /^(bmg|bardimg|bard)$/i;
 
 handler.limit = false
 
