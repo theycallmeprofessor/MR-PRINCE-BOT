@@ -26,8 +26,8 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 //💌------------------------------------------💌
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
-global.mods = ['923042205427'] 
+//💌global.pairingNumber = "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUxkS3B1bTBScHpyY3doNmRlSE8rUGpPQkFSLzZxeEF6cmFNc1BXUStVZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUW83MlA5R3JlQjdabk5VSnFDT2RXbWE0YUxTRCtzZmsrQ0RNdGNMK3lVOD0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4UExpSDd6Rmd6T2dDVUVoVUlXZlBjckV0Ymhidk5QYTI2NDZKVkIxL1Z3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJZZ2RJcmdQMGRqbnVOd0VMMEszQWRXZVlxS2NDZGszWHNYMnNFZHlXakZvPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlJV3pFTHJsMy9XckZEelBFa1JWazVNWjZzZjJiRGJ1emxIVEU5Y09aRVk9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlRpdzlhQnBrWW9LVWZTU3JPNytWTUpUOWE4QjRDKzEwNXFqUVpNZzQ2bUU9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUdoYkxJVmNmU0ZGcEdJOWdCME9iWDlLbWdLZXc5S1BTWHEyZUs2b0pWMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieEFhTWdadFBoYWFqUUxPdWhrU3VReHgzV2IxdzJZN0RCL1I5SmY4bFNDND0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlBzY3h0M0kyaG9raktDeHJsUkhHenU5bGlvVzBsVFRMU3c5MTBrdGF6Y29SUWZvSkNzSjZ3blJ1bUJRVW13MXF0RnpIZ256emU0SXN0WGw5Y1JiYmdBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6OTksImFkdlNlY3JldEtleSI6Indnb0k1T1ZSMGgvaWpkZEN4M25LSi8yYU83MG5POS9pN3V4NWZZWHNmeDg9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiOTIzMTY4MDY2NjM3QHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IkVBNDVBNENDMEUxMzU4RTAwQkJDRUU1ODY2ODc0QTA1In0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3MjI4OTQ0Mjd9LHsia2V5Ijp7InJlbW90ZUppZCI6IjkyMzE2ODA2NjYzN0BzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI5MURGMzdFNzQ1QjU3QkYxN0JCNkJDQUI2NzVCMzI5MSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzIyODk0NDI3fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJpWVRUN1JOYlJCYXIyRFowX2JFTnpBIiwicGhvbmVJZCI6IjY2N2M2YjM0LWFiOGYtNGZhMS04MDcyLTllMGNjZDQ4ODQwYSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJyTjZKTExROVozbEhTRlpJbXp2ZGNFRndtWnc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMVUyZVVqajRWN1c5SEYwQ0ZqTkJsOHltNmEwPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6Ik1EUFdYMUtIIiwibWUiOnsiaWQiOiI5MjMxNjgwNjY2Mzc6NTRAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiTS14LU0iLCJsaWQiOiIyODA1MDA0NTU0MDM3NDQ6NTRAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNNcUI3RW9ReUpERnRRWVlDaUFBS0FBPSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJKa3c0bnlLOFZwZWxuNlIvazlzYlBOanRCYUxvKytYcFdneVNDRDBNTFI0PSIsImFjY291bnRTaWduYXR1cmUiOiJ5dmdXQnIxWlhKa0E5UnBrYnRKTlI3M2orVS9CYXYydVNNVjVHd0hzSWlzRDQwK2o2ck1PKzBPWktPTWZPbTIzSXUrNVQ4YWxpTGdIdUdzU1oxdnVBdz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiME9rYm5Cd3RUUThGNDY3OXZZZUNRNG52Um5BdW5BbkdRVkVzZ0FOblhTUjA3NGtUYkFYdkh3ckY1SXkvWjFtY3ZEYmZxaXpvZ3pHeVN3YnBESkhsakE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5MjMxNjgwNjY2Mzc6NTRAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCU1pNT0o4aXZGYVhwWitrZjVQYkd6elk3UVdpNlB2bDZWb01rZ2c5REMwZSJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcyMjg5NDQyMSwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFESzYifQ==" //put your bot number here💌
+global.mods = ['923168066637'] 
 global.prems = ['']
 global.allowed = ['']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
@@ -140,8 +140,8 @@ global.thumb = fs.readFileSync('./Assets/Prince.png')
 
 
 //Reactions
-global.wait = '*♻️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 𝙵𝙸𝙻𝙴 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
-global.imgs = '*🖼️ _𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝚈𝙾𝚄𝚁 ɪᴍᴀɢᴇs 𝚆𝙰𝙸𝚃..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*♻️ _RUKO Z4R4 SAB4R KARO..._*\n*▰▰▰▱▱▱▱▱*'
+global.imgs = '*🖼️ _AA RAHI TASVEER  RUK..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '♻️'
 global.dmoji = '🤭'
 global.done = '✅'
